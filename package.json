@@ -1,5 +1,5 @@
 {
-  "name": "atom-openresty-snippets",
+  "name": "atom-openresty-stack-snippets",
   "version": "1.0.0",
   "description": "openresty autocomplete plugin for atom",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shixinke/atom-openresty-snippets.git"
+    "url": "git+https://github.com/shixinke/atom-openresty-stack-snippets.git"
   },
   "keywords": [
     "openresty",
@@ -20,7 +20,7 @@
   "author": "shixinke",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shixinke/atom-openresty-snippets/issues"
+    "url": "https://github.com/shixinke/atom-openresty-stack-snippets/issues"
   },
-  "homepage": "https://github.com/shixinke/atom-openresty-snippets#readme"
+  "homepage": "https://github.com/shixinke/atom-openresty-stack-snippets#readme"
 }
