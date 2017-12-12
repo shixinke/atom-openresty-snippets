@@ -1,0 +1,4 @@
+'source.lua':
+  'combine'
+    'prefix':'combine'
+    'body':'delay, err = class.combine(limiters, keys)'

@@ -1,0 +1,7 @@
+'source.lua':
+  'spawn_checker'
+    'prefix':'spawn_checker'
+    'body':'ok, err = healthcheck.spawn_checker(options)'
+  'status_page'
+    'prefix':'status_page'
+    'body':'str, err = healthcheck.status_page()'

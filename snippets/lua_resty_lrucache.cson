@@ -1,0 +1,13 @@
+'source.lua':
+  'new'
+    'prefix':'new'
+    'body':'new'
+  'set'
+    'prefix':'set'
+    'body':'set'
+  'get'
+    'prefix':'get'
+    'body':'get'
+  'delete'
+    'prefix':'delete'
+    'body':'delete'
