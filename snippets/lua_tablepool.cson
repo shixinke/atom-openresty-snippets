@@ -1,7 +1,7 @@
 'source.lua':
-  'fetch'
+  'fetch':
     'prefix':'fetch'
     'body':'fetch'
-  'release'
+  'release':
     'prefix':'release'
     'body':'release'

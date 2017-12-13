@@ -1,196 +1,196 @@
 'source.lua':
-  'lua_capture_error_log'
+  'lua_capture_error_log':
     'prefix':'lua_capture_error_log'
     'body':'lua_capture_error_log size'
-  'lua_use_default_type'
+  'lua_use_default_type':
     'prefix':'lua_use_default_type'
     'body':'lua_use_default_type on | off'
-  'lua_malloc_trim'
+  'lua_malloc_trim':
     'prefix':'lua_malloc_trim'
     'body':'lua_malloc_trim <request-count>'
-  'lua_code_cache'
+  'lua_code_cache':
     'prefix':'lua_code_cache'
     'body':'lua_code_cache on | off'
-  'lua_regex_cache_max_entries'
+  'lua_regex_cache_max_entries':
     'prefix':'lua_regex_cache_max_entries'
     'body':'lua_regex_cache_max_entries <num>'
-  'lua_regex_match_limit'
+  'lua_regex_match_limit':
     'prefix':'lua_regex_match_limit'
     'body':'lua_regex_match_limit <num>'
-  'lua_package_path'
+  'lua_package_path':
     'prefix':'lua_package_path'
     'body':'lua_package_path <lua-style-path-str>'
-  'lua_package_cpath'
+  'lua_package_cpath':
     'prefix':'lua_package_cpath'
     'body':'lua_package_cpath <lua-style-cpath-str>'
-  'init_by_lua'
+  'init_by_lua':
     'prefix':'init_by_lua'
     'body':'init_by_lua <lua-script-str>'
-  'init_by_lua_block'
+  'init_by_lua_block':
     'prefix':'init_by_lua_block'
     'body':'init_by_lua_block { lua-script }'
-  'init_by_lua_file'
+  'init_by_lua_file':
     'prefix':'init_by_lua_file'
     'body':'init_by_lua_file <path-to-lua-script-file>'
-  'init_worker_by_lua'
+  'init_worker_by_lua':
     'prefix':'init_worker_by_lua'
     'body':'init_worker_by_lua <lua-script-str>'
-  'init_worker_by_lua_block'
+  'init_worker_by_lua_block':
     'prefix':'init_worker_by_lua_block'
     'body':'init_worker_by_lua_block { lua-script }'
-  'init_worker_by_lua_file'
+  'init_worker_by_lua_file':
     'prefix':'init_worker_by_lua_file'
     'body':'init_worker_by_lua_file <lua-file-path>'
-  'set_by_lua'
+  'set_by_lua':
     'prefix':'set_by_lua'
     'body':'set_by_lua $res <lua-script-str> [$arg1 $arg2 ...]'
-  'set_by_lua_block'
+  'set_by_lua_block':
     'prefix':'set_by_lua_block'
     'body':'set_by_lua_block $res { lua-script }'
-  'set_by_lua_file'
+  'set_by_lua_file':
     'prefix':'set_by_lua_file'
     'body':'set_by_lua_file $res <path-to-lua-script-file> [$arg1 $arg2 ...]'
-  'content_by_lua'
+  'content_by_lua':
     'prefix':'content_by_lua'
     'body':'content_by_lua <lua-script-str>'
-  'content_by_lua_block'
+  'content_by_lua_block':
     'prefix':'content_by_lua_block'
     'body':'content_by_lua_block { lua-script }'
-  'content_by_lua_file'
+  'content_by_lua_file':
     'prefix':'content_by_lua_file'
     'body':'content_by_lua_file <path-to-lua-script-file>'
-  'rewrite_by_lua'
+  'rewrite_by_lua':
     'prefix':'rewrite_by_lua'
     'body':'rewrite_by_lua <lua-script-str>'
-  'rewrite_by_lua_block'
+  'rewrite_by_lua_block':
     'prefix':'rewrite_by_lua_block'
     'body':'rewrite_by_lua_block { lua-script }'
-  'rewrite_by_lua_file'
+  'rewrite_by_lua_file':
     'prefix':'rewrite_by_lua_file'
     'body':'rewrite_by_lua_file <path-to-lua-script-file>'
-  'access_by_lua'
+  'access_by_lua':
     'prefix':'access_by_lua'
     'body':'access_by_lua <lua-script-str>'
-  'access_by_lua_block'
+  'access_by_lua_block':
     'prefix':'access_by_lua_block'
     'body':'access_by_lua_block { lua-script }'
-  'access_by_lua_file'
+  'access_by_lua_file':
     'prefix':'access_by_lua_file'
     'body':'access_by_lua_file <path-to-lua-script-file>'
-  'header_filter_by_lua'
+  'header_filter_by_lua':
     'prefix':'header_filter_by_lua'
     'body':'header_filter_by_lua <lua-script-str>'
-  'header_filter_by_lua_block'
+  'header_filter_by_lua_block':
     'prefix':'header_filter_by_lua_block'
     'body':'header_filter_by_lua_block { lua-script }'
-  'header_filter_by_lua_file'
+  'header_filter_by_lua_file':
     'prefix':'header_filter_by_lua_file'
     'body':'header_filter_by_lua_file <path-to-lua-script-file>'
-  'body_filter_by_lua'
+  'body_filter_by_lua':
     'prefix':'body_filter_by_lua'
     'body':'body_filter_by_lua <lua-script-str>'
-  'body_filter_by_lua_block'
+  'body_filter_by_lua_block':
     'prefix':'body_filter_by_lua_block'
     'body':'body_filter_by_lua_block { lua-script-str }'
-  'body_filter_by_lua_file'
+  'body_filter_by_lua_file':
     'prefix':'body_filter_by_lua_file'
     'body':'body_filter_by_lua_file <path-to-lua-script-file>'
-  'log_by_lua'
+  'log_by_lua':
     'prefix':'log_by_lua'
     'body':'log_by_lua <lua-script-str>'
-  'log_by_lua_block'
+  'log_by_lua_block':
     'prefix':'log_by_lua_block'
     'body':'log_by_lua_block { lua-script }'
-  'log_by_lua_file'
+  'log_by_lua_file':
     'prefix':'log_by_lua_file'
     'body':'log_by_lua_file <path-to-lua-script-file>'
-  'balancer_by_lua_block'
+  'balancer_by_lua_block':
     'prefix':'balancer_by_lua_block'
     'body':'balancer_by_lua_block { lua-script }'
-  'balancer_by_lua_file'
+  'balancer_by_lua_file':
     'prefix':'balancer_by_lua_file'
     'body':'balancer_by_lua_file <path-to-lua-script-file>'
-  'lua_need_request_body'
+  'lua_need_request_body':
     'prefix':'lua_need_request_body'
     'body':'lua_need_request_body <on|off>'
-  'ssl_certificate_by_lua_block'
+  'ssl_certificate_by_lua_block':
     'prefix':'ssl_certificate_by_lua_block'
     'body':'ssl_certificate_by_lua_block { lua-script }'
-  'ssl_certificate_by_lua_file'
+  'ssl_certificate_by_lua_file':
     'prefix':'ssl_certificate_by_lua_file'
     'body':'ssl_certificate_by_lua_file <path-to-lua-script-file>'
-  'ssl_session_fetch_by_lua_block'
+  'ssl_session_fetch_by_lua_block':
     'prefix':'ssl_session_fetch_by_lua_block'
     'body':'ssl_session_fetch_by_lua_block { lua-script }'
-  'ssl_session_fetch_by_lua_file'
+  'ssl_session_fetch_by_lua_file':
     'prefix':'ssl_session_fetch_by_lua_file'
     'body':'ssl_session_fetch_by_lua_file <path-to-lua-script-file>'
-  'ssl_session_store_by_lua_block'
+  'ssl_session_store_by_lua_block':
     'prefix':'ssl_session_store_by_lua_block'
     'body':'ssl_session_store_by_lua_block { lua-script }'
-  'ssl_session_store_by_lua_file'
+  'ssl_session_store_by_lua_file':
     'prefix':'ssl_session_store_by_lua_file'
     'body':'ssl_session_store_by_lua_file <path-to-lua-script-file>'
-  'lua_shared_dict'
+  'lua_shared_dict':
     'prefix':'lua_shared_dict'
     'body':'lua_shared_dict <name> <size>'
-  'lua_socket_connect_timeout'
+  'lua_socket_connect_timeout':
     'prefix':'lua_socket_connect_timeout'
     'body':'lua_socket_connect_timeout <time>'
-  'lua_socket_send_timeout'
+  'lua_socket_send_timeout':
     'prefix':'lua_socket_send_timeout'
     'body':'lua_socket_send_timeout <time>'
-  'lua_socket_send_lowat'
+  'lua_socket_send_lowat':
     'prefix':'lua_socket_send_lowat'
     'body':'lua_socket_send_lowat <size>'
-  'lua_socket_read_timeout'
+  'lua_socket_read_timeout':
     'prefix':'lua_socket_read_timeout'
     'body':'lua_socket_read_timeout <time>'
-  'lua_socket_buffer_size'
+  'lua_socket_buffer_size':
     'prefix':'lua_socket_buffer_size'
     'body':'lua_socket_buffer_size <size>'
-  'lua_socket_pool_size'
+  'lua_socket_pool_size':
     'prefix':'lua_socket_pool_size'
     'body':'lua_socket_pool_size <size>'
-  'lua_socket_keepalive_timeout'
+  'lua_socket_keepalive_timeout':
     'prefix':'lua_socket_keepalive_timeout'
     'body':'lua_socket_keepalive_timeout <time>'
-  'lua_socket_log_errors'
+  'lua_socket_log_errors':
     'prefix':'lua_socket_log_errors'
     'body':'lua_socket_log_errors on|off'
-  'lua_ssl_ciphers'
+  'lua_ssl_ciphers':
     'prefix':'lua_ssl_ciphers'
     'body':'lua_ssl_ciphers <ciphers>'
-  'lua_ssl_crl'
+  'lua_ssl_crl':
     'prefix':'lua_ssl_crl'
     'body':'lua_ssl_crl <file>'
-  'lua_ssl_protocols'
+  'lua_ssl_protocols':
     'prefix':'lua_ssl_protocols'
     'body':'lua_ssl_protocols [SSLv2] [SSLv3] [TLSv1] [TLSv1.1] [TLSv1.2]'
-  'lua_ssl_trusted_certificate'
+  'lua_ssl_trusted_certificate':
     'prefix':'lua_ssl_trusted_certificate'
     'body':'lua_ssl_trusted_certificate <file>'
-  'lua_ssl_verify_depth'
+  'lua_ssl_verify_depth':
     'prefix':'lua_ssl_verify_depth'
     'body':'lua_ssl_verify_depth <number>'
-  'lua_http10_buffering'
+  'lua_http10_buffering':
     'prefix':'lua_http10_buffering'
     'body':'lua_http10_buffering on|off'
-  'rewrite_by_lua_no_postpone'
+  'rewrite_by_lua_no_postpone':
     'prefix':'rewrite_by_lua_no_postpone'
     'body':'rewrite_by_lua_no_postpone on|off'
-  'access_by_lua_no_postpone'
+  'access_by_lua_no_postpone':
     'prefix':'access_by_lua_no_postpone'
     'body':'access_by_lua_no_postpone on|off'
-  'lua_transform_underscores_in_response_headers'
+  'lua_transform_underscores_in_response_headers':
     'prefix':'lua_transform_underscores_in_response_headers'
     'body':'lua_transform_underscores_in_response_headers on|off'
-  'lua_check_client_abort'
+  'lua_check_client_abort':
     'prefix':'lua_check_client_abort'
     'body':'lua_check_client_abort on|off'
-  'lua_max_pending_timers'
+  'lua_max_pending_timers':
     'prefix':'lua_max_pending_timers'
     'body':'lua_max_pending_timers <count>'
-  'lua_max_running_timers'
+  'lua_max_running_timers':
     'prefix':'lua_max_running_timers'
     'body':'lua_max_running_timers <count>'

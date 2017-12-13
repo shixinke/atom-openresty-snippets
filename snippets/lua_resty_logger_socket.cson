@@ -1,13 +1,13 @@
 'source.lua':
-  'init'
+  'init':
     'prefix':'init'
     'body':'init'
-  'initted'
+  'initted':
     'prefix':'initted'
     'body':'initted'
-  'log'
+  'log':
     'prefix':'log'
     'body':'log'
-  'flush'
+  'flush':
     'prefix':'flush'
     'body':'flush'

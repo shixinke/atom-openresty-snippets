@@ -1,13 +1,13 @@
 'source.lua':
-  'new'
+  'new':
     'prefix':'new'
     'body':'new'
-  'lock'
+  'lock':
     'prefix':'lock'
     'body':'lock'
-  'unlock'
+  'unlock':
     'prefix':'unlock'
     'body':'unlock'
-  'expire'
+  'expire':
     'prefix':'expire'
     'body':'expire'

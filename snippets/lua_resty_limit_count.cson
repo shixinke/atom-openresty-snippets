@@ -1,10 +1,10 @@
 'source.lua':
-  'new'
+  'new':
     'prefix':'new'
     'body':'obj, err = class.new(shdict_name, count, time_window)'
-  'incoming'
+  'incoming':
     'prefix':'incoming'
     'body':'delay, err = obj:incoming(key, commit)'
-  'uncommit'
+  'uncommit':
     'prefix':'uncommit'
     'body':'remaining, err = obj:uncommit(key)'

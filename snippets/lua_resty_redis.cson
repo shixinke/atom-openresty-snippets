@@ -1,40 +1,40 @@
 'source.lua':
-  'new'
+  'new':
     'prefix':'new'
     'body':'new'
-  'connect'
+  'connect':
     'prefix':'connect'
     'body':'connect'
-  'set_timeout'
+  'set_timeout':
     'prefix':'set_timeout'
     'body':'set_timeout'
-  'set_keepalive'
+  'set_keepalive':
     'prefix':'set_keepalive'
     'body':'set_keepalive'
-  'get_reused_times'
+  'get_reused_times':
     'prefix':'get_reused_times'
     'body':'get_reused_times'
-  'close'
+  'close':
     'prefix':'close'
     'body':'close'
-  'init_pipeline'
+  'init_pipeline':
     'prefix':'init_pipeline'
     'body':'init_pipeline'
-  'commit_pipeline'
+  'commit_pipeline':
     'prefix':'commit_pipeline'
     'body':'commit_pipeline'
-  'cancel_pipeline'
+  'cancel_pipeline':
     'prefix':'cancel_pipeline'
     'body':'cancel_pipeline'
-  'hmset'
+  'hmset':
     'prefix':'hmset'
     'body':'hmset'
-  'array_to_hash'
+  'array_to_hash':
     'prefix':'array_to_hash'
     'body':'array_to_hash'
-  'read_reply'
+  'read_reply':
     'prefix':'read_reply'
     'body':'read_reply'
-  'add_commands'
+  'add_commands':
     'prefix':'add_commands'
     'body':'add_commands'

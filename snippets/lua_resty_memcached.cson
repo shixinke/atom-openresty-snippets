@@ -1,70 +1,70 @@
 'source.lua':
-  'new'
+  'new':
     'prefix':'new'
     'body':'new'
-  'connect'
+  'connect':
     'prefix':'connect'
     'body':'connect'
-  'set'
+  'set':
     'prefix':'set'
     'body':'set'
-  'set_timeout'
+  'set_timeout':
     'prefix':'set_timeout'
     'body':'set_timeout'
-  'set_keepalive'
+  'set_keepalive':
     'prefix':'set_keepalive'
     'body':'set_keepalive'
-  'get_reused_times'
+  'get_reused_times':
     'prefix':'get_reused_times'
     'body':'get_reused_times'
-  'close'
+  'close':
     'prefix':'close'
     'body':'close'
-  'add'
+  'add':
     'prefix':'add'
     'body':'add'
-  'replace'
+  'replace':
     'prefix':'replace'
     'body':'replace'
-  'append'
+  'append':
     'prefix':'append'
     'body':'append'
-  'prepend'
+  'prepend':
     'prefix':'prepend'
     'body':'prepend'
-  'get'
+  'get':
     'prefix':'get'
     'body':'get'
-  'gets'
+  'gets':
     'prefix':'gets'
     'body':'gets'
-  'cas'
+  'cas':
     'prefix':'cas'
     'body':'cas'
-  'touch'
+  'touch':
     'prefix':'touch'
     'body':'touch'
-  'flush_all'
+  'flush_all':
     'prefix':'flush_all'
     'body':'flush_all'
-  'delete'
+  'delete':
     'prefix':'delete'
     'body':'delete'
-  'incr'
+  'incr':
     'prefix':'incr'
     'body':'incr'
-  'decr'
+  'decr':
     'prefix':'decr'
     'body':'decr'
-  'stats'
+  'stats':
     'prefix':'stats'
     'body':'stats'
-  'version'
+  'version':
     'prefix':'version'
     'body':'version'
-  'quit'
+  'quit':
     'prefix':'quit'
     'body':'quit'
-  'verbosity'
+  'verbosity':
     'prefix':'verbosity'
     'body':'verbosity'

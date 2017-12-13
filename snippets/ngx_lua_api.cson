@@ -1,616 +1,616 @@
 'source.lua':
-  'ngx.arg'
+  'ngx.arg':
     'prefix':'ngx.arg'
     'body':'val = ngx.arg[index]'
-  'ngx.var.VARIABLE'
+  'ngx.var.VARIABLE':
     'prefix':'ngx.var.VARIABLE'
     'body':'ngx.var.VAR_NAME'
-  'ngx.OK'
+  'ngx.OK':
     'prefix':'ngx.OK'
     'body':'ngx.OK'
-  'ngx.ERROR'
+  'ngx.ERROR':
     'prefix':'ngx.ERROR'
     'body':'ngx.ERROR'
-  'ngx.AGAIN'
+  'ngx.AGAIN':
     'prefix':'ngx.AGAIN'
     'body':'ngx.AGAIN'
-  'ngx.DONE'
+  'ngx.DONE':
     'prefix':'ngx.DONE'
     'body':'ngx.DONE'
-  'ngx.DECLINED'
+  'ngx.DECLINED':
     'prefix':'ngx.DECLINED'
     'body':'ngx.DECLINED'
-  'ngx.HTTP_GET'
+  'ngx.HTTP_GET':
     'prefix':'ngx.HTTP_GET'
     'body':'ngx.HTTP_GET'
-  'ngx.HTTP_HEAD'
+  'ngx.HTTP_HEAD':
     'prefix':'ngx.HTTP_HEAD'
     'body':'ngx.HTTP_HEAD'
-  'ngx.HTTP_PUT'
+  'ngx.HTTP_PUT':
     'prefix':'ngx.HTTP_PUT'
     'body':'ngx.HTTP_PUT'
-  'ngx.HTTP_POST'
+  'ngx.HTTP_POST':
     'prefix':'ngx.HTTP_POST'
     'body':'ngx.HTTP_POST'
-  'ngx.HTTP_DELETE'
+  'ngx.HTTP_DELETE':
     'prefix':'ngx.HTTP_DELETE'
     'body':'ngx.HTTP_DELETE'
-  'ngx.HTTP_OPTIONS'
+  'ngx.HTTP_OPTIONS':
     'prefix':'ngx.HTTP_OPTIONS'
     'body':'ngx.HTTP_OPTIONS'
-  'ngx.HTTP_MKCOL'
+  'ngx.HTTP_MKCOL':
     'prefix':'ngx.HTTP_MKCOL'
     'body':'ngx.HTTP_MKCOL'
-  'ngx.HTTP_COPY'
+  'ngx.HTTP_COPY':
     'prefix':'ngx.HTTP_COPY'
     'body':'ngx.HTTP_COPY'
-  'ngx.HTTP_MOVE'
+  'ngx.HTTP_MOVE':
     'prefix':'ngx.HTTP_MOVE'
     'body':'ngx.HTTP_MOVE'
-  'ngx.HTTP_PROPFIND'
+  'ngx.HTTP_PROPFIND':
     'prefix':'ngx.HTTP_PROPFIND'
     'body':'ngx.HTTP_PROPFIND'
-  'ngx.HTTP_PROPPATCH'
+  'ngx.HTTP_PROPPATCH':
     'prefix':'ngx.HTTP_PROPPATCH'
     'body':'ngx.HTTP_PROPPATCH'
-  'ngx.HTTP_LOCK'
+  'ngx.HTTP_LOCK':
     'prefix':'ngx.HTTP_LOCK'
     'body':'ngx.HTTP_LOCK'
-  'ngx.HTTP_UNLOCK'
+  'ngx.HTTP_UNLOCK':
     'prefix':'ngx.HTTP_UNLOCK'
     'body':'ngx.HTTP_UNLOCK'
-  'ngx.HTTP_PATCH'
+  'ngx.HTTP_PATCH':
     'prefix':'ngx.HTTP_PATCH'
     'body':'ngx.HTTP_PATCH'
-  'ngx.HTTP_TRACE'
+  'ngx.HTTP_TRACE':
     'prefix':'ngx.HTTP_TRACE'
     'body':'ngx.HTTP_TRACE'
-  'value = ngx.HTTP_CONTINUE'
+  'value = ngx.HTTP_CONTINUE':
     'prefix':'value = ngx.HTTP_CONTINUE'
     'body':'value = ngx.HTTP_CONTINUE'
-  'value = ngx.HTTP_SWITCHING_PROTOCOLS'
+  'value = ngx.HTTP_SWITCHING_PROTOCOLS':
     'prefix':'value = ngx.HTTP_SWITCHING_PROTOCOLS'
     'body':'value = ngx.HTTP_SWITCHING_PROTOCOLS'
-  'value = ngx.HTTP_OK'
+  'value = ngx.HTTP_OK':
     'prefix':'value = ngx.HTTP_OK'
     'body':'value = ngx.HTTP_OK'
-  'value = ngx.HTTP_CREATED'
+  'value = ngx.HTTP_CREATED':
     'prefix':'value = ngx.HTTP_CREATED'
     'body':'value = ngx.HTTP_CREATED'
-  'value = ngx.HTTP_ACCEPTED'
+  'value = ngx.HTTP_ACCEPTED':
     'prefix':'value = ngx.HTTP_ACCEPTED'
     'body':'value = ngx.HTTP_ACCEPTED'
-  'value = ngx.HTTP_NO_CONTENT'
+  'value = ngx.HTTP_NO_CONTENT':
     'prefix':'value = ngx.HTTP_NO_CONTENT'
     'body':'value = ngx.HTTP_NO_CONTENT'
-  'value = ngx.HTTP_PARTIAL_CONTENT'
+  'value = ngx.HTTP_PARTIAL_CONTENT':
     'prefix':'value = ngx.HTTP_PARTIAL_CONTENT'
     'body':'value = ngx.HTTP_PARTIAL_CONTENT'
-  'value = ngx.HTTP_SPECIAL_RESPONSE'
+  'value = ngx.HTTP_SPECIAL_RESPONSE':
     'prefix':'value = ngx.HTTP_SPECIAL_RESPONSE'
     'body':'value = ngx.HTTP_SPECIAL_RESPONSE'
-  'value = ngx.HTTP_MOVED_PERMANENTLY'
+  'value = ngx.HTTP_MOVED_PERMANENTLY':
     'prefix':'value = ngx.HTTP_MOVED_PERMANENTLY'
     'body':'value = ngx.HTTP_MOVED_PERMANENTLY'
-  'value = ngx.HTTP_MOVED_TEMPORARILY'
+  'value = ngx.HTTP_MOVED_TEMPORARILY':
     'prefix':'value = ngx.HTTP_MOVED_TEMPORARILY'
     'body':'value = ngx.HTTP_MOVED_TEMPORARILY'
-  'value = ngx.HTTP_SEE_OTHER'
+  'value = ngx.HTTP_SEE_OTHER':
     'prefix':'value = ngx.HTTP_SEE_OTHER'
     'body':'value = ngx.HTTP_SEE_OTHER'
-  'value = ngx.HTTP_NOT_MODIFIED'
+  'value = ngx.HTTP_NOT_MODIFIED':
     'prefix':'value = ngx.HTTP_NOT_MODIFIED'
     'body':'value = ngx.HTTP_NOT_MODIFIED'
-  'value = ngx.HTTP_TEMPORARY_REDIRECT'
+  'value = ngx.HTTP_TEMPORARY_REDIRECT':
     'prefix':'value = ngx.HTTP_TEMPORARY_REDIRECT'
     'body':'value = ngx.HTTP_TEMPORARY_REDIRECT'
-  'value = ngx.HTTP_BAD_REQUEST'
+  'value = ngx.HTTP_BAD_REQUEST':
     'prefix':'value = ngx.HTTP_BAD_REQUEST'
     'body':'value = ngx.HTTP_BAD_REQUEST'
-  'value = ngx.HTTP_UNAUTHORIZED'
+  'value = ngx.HTTP_UNAUTHORIZED':
     'prefix':'value = ngx.HTTP_UNAUTHORIZED'
     'body':'value = ngx.HTTP_UNAUTHORIZED'
-  'value = ngx.HTTP_PAYMENT_REQUIRED'
+  'value = ngx.HTTP_PAYMENT_REQUIRED':
     'prefix':'value = ngx.HTTP_PAYMENT_REQUIRED'
     'body':'value = ngx.HTTP_PAYMENT_REQUIRED'
-  'value = ngx.HTTP_FORBIDDEN'
+  'value = ngx.HTTP_FORBIDDEN':
     'prefix':'value = ngx.HTTP_FORBIDDEN'
     'body':'value = ngx.HTTP_FORBIDDEN'
-  'value = ngx.HTTP_NOT_FOUND'
+  'value = ngx.HTTP_NOT_FOUND':
     'prefix':'value = ngx.HTTP_NOT_FOUND'
     'body':'value = ngx.HTTP_NOT_FOUND'
-  'value = ngx.HTTP_NOT_ALLOWED'
+  'value = ngx.HTTP_NOT_ALLOWED':
     'prefix':'value = ngx.HTTP_NOT_ALLOWED'
     'body':'value = ngx.HTTP_NOT_ALLOWED'
-  'value = ngx.HTTP_NOT_ACCEPTABLE'
+  'value = ngx.HTTP_NOT_ACCEPTABLE':
     'prefix':'value = ngx.HTTP_NOT_ACCEPTABLE'
     'body':'value = ngx.HTTP_NOT_ACCEPTABLE'
-  'value = ngx.HTTP_REQUEST_TIMEOUT'
+  'value = ngx.HTTP_REQUEST_TIMEOUT':
     'prefix':'value = ngx.HTTP_REQUEST_TIMEOUT'
     'body':'value = ngx.HTTP_REQUEST_TIMEOUT'
-  'value = ngx.HTTP_CONFLICT'
+  'value = ngx.HTTP_CONFLICT':
     'prefix':'value = ngx.HTTP_CONFLICT'
     'body':'value = ngx.HTTP_CONFLICT'
-  'value = ngx.HTTP_GONE'
+  'value = ngx.HTTP_GONE':
     'prefix':'value = ngx.HTTP_GONE'
     'body':'value = ngx.HTTP_GONE'
-  'value = ngx.HTTP_UPGRADE_REQUIRED'
+  'value = ngx.HTTP_UPGRADE_REQUIRED':
     'prefix':'value = ngx.HTTP_UPGRADE_REQUIRED'
     'body':'value = ngx.HTTP_UPGRADE_REQUIRED'
-  'value = ngx.HTTP_TOO_MANY_REQUESTS'
+  'value = ngx.HTTP_TOO_MANY_REQUESTS':
     'prefix':'value = ngx.HTTP_TOO_MANY_REQUESTS'
     'body':'value = ngx.HTTP_TOO_MANY_REQUESTS'
-  'value = ngx.HTTP_CLOSE'
+  'value = ngx.HTTP_CLOSE':
     'prefix':'value = ngx.HTTP_CLOSE'
     'body':'value = ngx.HTTP_CLOSE'
-  'value = ngx.HTTP_ILLEGAL'
+  'value = ngx.HTTP_ILLEGAL':
     'prefix':'value = ngx.HTTP_ILLEGAL'
     'body':'value = ngx.HTTP_ILLEGAL'
-  'value = ngx.HTTP_INTERNAL_SERVER_ERROR'
+  'value = ngx.HTTP_INTERNAL_SERVER_ERROR':
     'prefix':'value = ngx.HTTP_INTERNAL_SERVER_ERROR'
     'body':'value = ngx.HTTP_INTERNAL_SERVER_ERROR'
-  'value = ngx.HTTP_METHOD_NOT_IMPLEMENTED'
+  'value = ngx.HTTP_METHOD_NOT_IMPLEMENTED':
     'prefix':'value = ngx.HTTP_METHOD_NOT_IMPLEMENTED'
     'body':'value = ngx.HTTP_METHOD_NOT_IMPLEMENTED'
-  'value = ngx.HTTP_BAD_GATEWAY'
+  'value = ngx.HTTP_BAD_GATEWAY':
     'prefix':'value = ngx.HTTP_BAD_GATEWAY'
     'body':'value = ngx.HTTP_BAD_GATEWAY'
-  'value = ngx.HTTP_SERVICE_UNAVAILABLE'
+  'value = ngx.HTTP_SERVICE_UNAVAILABLE':
     'prefix':'value = ngx.HTTP_SERVICE_UNAVAILABLE'
     'body':'value = ngx.HTTP_SERVICE_UNAVAILABLE'
-  'value = ngx.HTTP_GATEWAY_TIMEOUT'
+  'value = ngx.HTTP_GATEWAY_TIMEOUT':
     'prefix':'value = ngx.HTTP_GATEWAY_TIMEOUT'
     'body':'value = ngx.HTTP_GATEWAY_TIMEOUT'
-  'value = ngx.HTTP_VERSION_NOT_SUPPORTED'
+  'value = ngx.HTTP_VERSION_NOT_SUPPORTED':
     'prefix':'value = ngx.HTTP_VERSION_NOT_SUPPORTED'
     'body':'value = ngx.HTTP_VERSION_NOT_SUPPORTED'
-  'value = ngx.HTTP_INSUFFICIENT_STORAGE'
+  'value = ngx.HTTP_INSUFFICIENT_STORAGE':
     'prefix':'value = ngx.HTTP_INSUFFICIENT_STORAGE'
     'body':'value = ngx.HTTP_INSUFFICIENT_STORAGE'
-  'ngx.STDERR'
+  'ngx.STDERR':
     'prefix':'ngx.STDERR'
     'body':'ngx.STDERR'
-  'ngx.EMERG'
+  'ngx.EMERG':
     'prefix':'ngx.EMERG'
     'body':'ngx.EMERG'
-  'ngx.ALERT'
+  'ngx.ALERT':
     'prefix':'ngx.ALERT'
     'body':'ngx.ALERT'
-  'ngx.CRIT'
+  'ngx.CRIT':
     'prefix':'ngx.CRIT'
     'body':'ngx.CRIT'
-  'ngx.ERR'
+  'ngx.ERR':
     'prefix':'ngx.ERR'
     'body':'ngx.ERR'
-  'ngx.WARN'
+  'ngx.WARN':
     'prefix':'ngx.WARN'
     'body':'ngx.WARN'
-  'ngx.NOTICE'
+  'ngx.NOTICE':
     'prefix':'ngx.NOTICE'
     'body':'ngx.NOTICE'
-  'ngx.INFO'
+  'ngx.INFO':
     'prefix':'ngx.INFO'
     'body':'ngx.INFO'
-  'ngx.DEBUG'
+  'ngx.DEBUG':
     'prefix':'ngx.DEBUG'
     'body':'ngx.DEBUG'
-  'print'
+  'print':
     'prefix':'print'
     'body':'print(...)'
-  'ngx.ctx'
+  'ngx.ctx':
     'prefix':'ngx.ctx'
     'body':'init_worker_by_lua*, set_by_lua*, rewrite_by_lua*, access_by_lua*, content_by_lua*, header_filter_by_lua*, body_filter_by_lua*, log_by_lua*, ngx.timer.*, balancer_by_lua*'
-  'ngx.location.capture'
+  'ngx.location.capture':
     'prefix':'ngx.location.capture'
     'body':'res = ngx.location.capture(uri, options?)'
-  'ngx.location.capture_multi'
+  'ngx.location.capture_multi':
     'prefix':'ngx.location.capture_multi'
     'body':'res1, res2, ... = ngx.location.capture_multi({ {uri, options?}, {uri, options?}, ... })'
-  'ngx.status'
+  'ngx.status':
     'prefix':'ngx.status'
     'body':'set_by_lua*, rewrite_by_lua*, access_by_lua*, content_by_lua*, header_filter_by_lua*, body_filter_by_lua*, log_by_lua*'
-  'ngx.header.HEADER'
+  'ngx.header.HEADER':
     'prefix':'ngx.header.HEADER'
     'body':'ngx.header.HEADER = VALUE'
-  'ngx.resp.get_headers'
+  'ngx.resp.get_headers':
     'prefix':'ngx.resp.get_headers'
     'body':'headers = ngx.resp.get_headers(max_headers?, raw?)'
-  'ngx.req.is_internal'
+  'ngx.req.is_internal':
     'prefix':'ngx.req.is_internal'
     'body':'is_internal = ngx.req.is_internal()'
-  'ngx.req.start_time'
+  'ngx.req.start_time':
     'prefix':'ngx.req.start_time'
     'body':'secs = ngx.req.start_time()'
-  'ngx.req.http_version'
+  'ngx.req.http_version':
     'prefix':'ngx.req.http_version'
     'body':'num = ngx.req.http_version()'
-  'ngx.req.raw_header'
+  'ngx.req.raw_header':
     'prefix':'ngx.req.raw_header'
     'body':'str = ngx.req.raw_header(no_request_line?)'
-  'ngx.req.get_method'
+  'ngx.req.get_method':
     'prefix':'ngx.req.get_method'
     'body':'method_name = ngx.req.get_method()'
-  'ngx.req.set_method'
+  'ngx.req.set_method':
     'prefix':'ngx.req.set_method'
     'body':'ngx.req.set_method(method_id)'
-  'ngx.req.set_uri'
+  'ngx.req.set_uri':
     'prefix':'ngx.req.set_uri'
     'body':'ngx.req.set_uri(uri, jump?)'
-  'ngx.req.set_uri_args'
+  'ngx.req.set_uri_args':
     'prefix':'ngx.req.set_uri_args'
     'body':'ngx.req.set_uri_args(args)'
-  'ngx.req.get_uri_args'
+  'ngx.req.get_uri_args':
     'prefix':'ngx.req.get_uri_args'
     'body':'args = ngx.req.get_uri_args(max_args?)'
-  'ngx.req.get_post_args'
+  'ngx.req.get_post_args':
     'prefix':'ngx.req.get_post_args'
     'body':'args, err = ngx.req.get_post_args(max_args?)'
-  'ngx.req.get_headers'
+  'ngx.req.get_headers':
     'prefix':'ngx.req.get_headers'
     'body':'headers = ngx.req.get_headers(max_headers?, raw?)'
-  'ngx.req.set_header'
+  'ngx.req.set_header':
     'prefix':'ngx.req.set_header'
     'body':'ngx.req.set_header(header_name, header_value)'
-  'ngx.req.clear_header'
+  'ngx.req.clear_header':
     'prefix':'ngx.req.clear_header'
     'body':'ngx.req.clear_header(header_name)'
-  'ngx.req.read_body'
+  'ngx.req.read_body':
     'prefix':'ngx.req.read_body'
     'body':'ngx.req.read_body()'
-  'ngx.req.discard_body'
+  'ngx.req.discard_body':
     'prefix':'ngx.req.discard_body'
     'body':'ngx.req.discard_body()'
-  'ngx.req.get_body_data'
+  'ngx.req.get_body_data':
     'prefix':'ngx.req.get_body_data'
     'body':'data = ngx.req.get_body_data()'
-  'ngx.req.get_body_file'
+  'ngx.req.get_body_file':
     'prefix':'ngx.req.get_body_file'
     'body':'file_name = ngx.req.get_body_file()'
-  'ngx.req.set_body_data'
+  'ngx.req.set_body_data':
     'prefix':'ngx.req.set_body_data'
     'body':'ngx.req.set_body_data(data)'
-  'ngx.req.set_body_file'
+  'ngx.req.set_body_file':
     'prefix':'ngx.req.set_body_file'
     'body':'ngx.req.set_body_file(file_name, auto_clean?)'
-  'ngx.req.init_body'
+  'ngx.req.init_body':
     'prefix':'ngx.req.init_body'
     'body':'ngx.req.init_body(buffer_size?)'
-  'ngx.req.append_body'
+  'ngx.req.append_body':
     'prefix':'ngx.req.append_body'
     'body':'ngx.req.append_body(data_chunk)'
-  'ngx.req.finish_body'
+  'ngx.req.finish_body':
     'prefix':'ngx.req.finish_body'
     'body':'ngx.req.finish_body()'
-  'ngx.req.socket'
+  'ngx.req.socket':
     'prefix':'ngx.req.socket'
     'body':'tcpsock, err = ngx.req.socket()'
-  'ngx.exec'
+  'ngx.exec':
     'prefix':'ngx.exec'
     'body':'ngx.exec(uri, args?)'
-  'ngx.redirect'
+  'ngx.redirect':
     'prefix':'ngx.redirect'
     'body':'ngx.redirect(uri, status?)'
-  'ngx.send_headers'
+  'ngx.send_headers':
     'prefix':'ngx.send_headers'
     'body':'ok, err = ngx.send_headers()'
-  'ngx.headers_sent'
+  'ngx.headers_sent':
     'prefix':'ngx.headers_sent'
     'body':'value = ngx.headers_sent'
-  'ngx.print'
+  'ngx.print':
     'prefix':'ngx.print'
     'body':'ok, err = ngx.print(...)'
-  'ngx.say'
+  'ngx.say':
     'prefix':'ngx.say'
     'body':'ok, err = ngx.say(...)'
-  'ngx.log'
+  'ngx.log':
     'prefix':'ngx.log'
     'body':'ngx.log(log_level, ...)'
-  'ngx.flush'
+  'ngx.flush':
     'prefix':'ngx.flush'
     'body':'ok, err = ngx.flush(wait?)'
-  'ngx.exit'
+  'ngx.exit':
     'prefix':'ngx.exit'
     'body':'ngx.exit(status)'
-  'ngx.eof'
+  'ngx.eof':
     'prefix':'ngx.eof'
     'body':'ok, err = ngx.eof()'
-  'ngx.sleep'
+  'ngx.sleep':
     'prefix':'ngx.sleep'
     'body':'ngx.sleep(seconds)'
-  'ngx.escape_uri'
+  'ngx.escape_uri':
     'prefix':'ngx.escape_uri'
     'body':'newstr = ngx.escape_uri(str)'
-  'ngx.unescape_uri'
+  'ngx.unescape_uri':
     'prefix':'ngx.unescape_uri'
     'body':'newstr = ngx.unescape_uri(str)'
-  'ngx.encode_args'
+  'ngx.encode_args':
     'prefix':'ngx.encode_args'
     'body':'str = ngx.encode_args(table)'
-  'ngx.decode_args'
+  'ngx.decode_args':
     'prefix':'ngx.decode_args'
     'body':'table = ngx.decode_args(str, max_args?)'
-  'ngx.encode_base64'
+  'ngx.encode_base64':
     'prefix':'ngx.encode_base64'
     'body':'newstr = ngx.encode_base64(str, no_padding?)'
-  'ngx.decode_base64'
+  'ngx.decode_base64':
     'prefix':'ngx.decode_base64'
     'body':'newstr = ngx.decode_base64(str)'
-  'ngx.crc32_short'
+  'ngx.crc32_short':
     'prefix':'ngx.crc32_short'
     'body':'intval = ngx.crc32_short(str)'
-  'ngx.crc32_long'
+  'ngx.crc32_long':
     'prefix':'ngx.crc32_long'
     'body':'intval = ngx.crc32_long(str)'
-  'ngx.hmac_sha1'
+  'ngx.hmac_sha1':
     'prefix':'ngx.hmac_sha1'
     'body':'digest = ngx.hmac_sha1(secret_key, str)'
-  'ngx.md5'
+  'ngx.md5':
     'prefix':'ngx.md5'
     'body':'digest = ngx.md5(str)'
-  'ngx.md5_bin'
+  'ngx.md5_bin':
     'prefix':'ngx.md5_bin'
     'body':'digest = ngx.md5_bin(str)'
-  'ngx.sha1_bin'
+  'ngx.sha1_bin':
     'prefix':'ngx.sha1_bin'
     'body':'digest = ngx.sha1_bin(str)'
-  'ngx.quote_sql_str'
+  'ngx.quote_sql_str':
     'prefix':'ngx.quote_sql_str'
     'body':'quoted_value = ngx.quote_sql_str(raw_value)'
-  'ngx.today'
+  'ngx.today':
     'prefix':'ngx.today'
     'body':'str = ngx.today()'
-  'ngx.time'
+  'ngx.time':
     'prefix':'ngx.time'
     'body':'secs = ngx.time()'
-  'ngx.now'
+  'ngx.now':
     'prefix':'ngx.now'
     'body':'secs = ngx.now()'
-  'ngx.update_time'
+  'ngx.update_time':
     'prefix':'ngx.update_time'
     'body':'ngx.update_time()'
-  'ngx.localtime'
+  'ngx.localtime':
     'prefix':'ngx.localtime'
     'body':'str = ngx.localtime()'
-  'ngx.utctime'
+  'ngx.utctime':
     'prefix':'ngx.utctime'
     'body':'str = ngx.utctime()'
-  'ngx.cookie_time'
+  'ngx.cookie_time':
     'prefix':'ngx.cookie_time'
     'body':'str = ngx.cookie_time(sec)'
-  'ngx.http_time'
+  'ngx.http_time':
     'prefix':'ngx.http_time'
     'body':'str = ngx.http_time(sec)'
-  'ngx.parse_http_time'
+  'ngx.parse_http_time':
     'prefix':'ngx.parse_http_time'
     'body':'sec = ngx.parse_http_time(str)'
-  'ngx.is_subrequest'
+  'ngx.is_subrequest':
     'prefix':'ngx.is_subrequest'
     'body':'value = ngx.is_subrequest'
-  'ngx.re.match'
+  'ngx.re.match':
     'prefix':'ngx.re.match'
     'body':'captures, err = ngx.re.match(subject, regex, options?, ctx?, res_table?)'
-  'ngx.re.find'
+  'ngx.re.find':
     'prefix':'ngx.re.find'
     'body':'from, to, err = ngx.re.find(subject, regex, options?, ctx?, nth?)'
-  'ngx.re.gmatch'
+  'ngx.re.gmatch':
     'prefix':'ngx.re.gmatch'
     'body':'iterator, err = ngx.re.gmatch(subject, regex, options?)'
-  'ngx.re.sub'
+  'ngx.re.sub':
     'prefix':'ngx.re.sub'
     'body':'newstr, n, err = ngx.re.sub(subject, regex, replace, options?)'
-  'ngx.re.gsub'
+  'ngx.re.gsub':
     'prefix':'ngx.re.gsub'
     'body':'newstr, n, err = ngx.re.gsub(subject, regex, replace, options?)'
-  'ngx.shared.DICT'
+  'ngx.shared.DICT':
     'prefix':'ngx.shared.DICT'
     'body':'dict = ngx.shared.DICT'
-  'ngx.shared.DICT.get'
+  'ngx.shared.DICT.get':
     'prefix':'ngx.shared.DICT.get'
     'body':'value, flags = ngx.shared.DICT:get(key)'
-  'ngx.shared.DICT.get_stale'
+  'ngx.shared.DICT.get_stale':
     'prefix':'ngx.shared.DICT.get_stale'
     'body':'value, flags, stale = ngx.shared.DICT:get_stale(key)'
-  'ngx.shared.DICT.set'
+  'ngx.shared.DICT.set':
     'prefix':'ngx.shared.DICT.set'
     'body':'success, err, forcible = ngx.shared.DICT:set(key, value, exptime?, flags?)'
-  'ngx.shared.DICT.safe_set'
+  'ngx.shared.DICT.safe_set':
     'prefix':'ngx.shared.DICT.safe_set'
     'body':'ok, err = ngx.shared.DICT:safe_set(key, value, exptime?, flags?)'
-  'ngx.shared.DICT.add'
+  'ngx.shared.DICT.add':
     'prefix':'ngx.shared.DICT.add'
     'body':'success, err, forcible = ngx.shared.DICT:add(key, value, exptime?, flags?)'
-  'ngx.shared.DICT.safe_add'
+  'ngx.shared.DICT.safe_add':
     'prefix':'ngx.shared.DICT.safe_add'
     'body':'ok, err = ngx.shared.DICT:safe_add(key, value, exptime?, flags?)'
-  'ngx.shared.DICT.replace'
+  'ngx.shared.DICT.replace':
     'prefix':'ngx.shared.DICT.replace'
     'body':'success, err, forcible = ngx.shared.DICT:replace(key, value, exptime?, flags?)'
-  'ngx.shared.DICT.delete'
+  'ngx.shared.DICT.delete':
     'prefix':'ngx.shared.DICT.delete'
     'body':'ngx.shared.DICT:delete(key)'
-  'ngx.shared.DICT.incr'
+  'ngx.shared.DICT.incr':
     'prefix':'ngx.shared.DICT.incr'
     'body':'newval, err, forcible? = ngx.shared.DICT:incr(key, value, init?)'
-  'ngx.shared.DICT.lpush'
+  'ngx.shared.DICT.lpush':
     'prefix':'ngx.shared.DICT.lpush'
     'body':'length, err = ngx.shared.DICT:lpush(key, value)'
-  'ngx.shared.DICT.rpush'
+  'ngx.shared.DICT.rpush':
     'prefix':'ngx.shared.DICT.rpush'
     'body':'length, err = ngx.shared.DICT:rpush(key, value)'
-  'ngx.shared.DICT.lpop'
+  'ngx.shared.DICT.lpop':
     'prefix':'ngx.shared.DICT.lpop'
     'body':'val, err = ngx.shared.DICT:lpop(key)'
-  'ngx.shared.DICT.rpop'
+  'ngx.shared.DICT.rpop':
     'prefix':'ngx.shared.DICT.rpop'
     'body':'val, err = ngx.shared.DICT:rpop(key)'
-  'ngx.shared.DICT.llen'
+  'ngx.shared.DICT.llen':
     'prefix':'ngx.shared.DICT.llen'
     'body':'len, err = ngx.shared.DICT:llen(key)'
-  'ngx.shared.DICT.ttl'
+  'ngx.shared.DICT.ttl':
     'prefix':'ngx.shared.DICT.ttl'
     'body':'ttl, err = ngx.shared.DICT:ttl(key)'
-  'ngx.shared.DICT.expire'
+  'ngx.shared.DICT.expire':
     'prefix':'ngx.shared.DICT.expire'
     'body':'success, err = ngx.shared.DICT:expire(key, exptime)'
-  'ngx.shared.DICT.flush_all'
+  'ngx.shared.DICT.flush_all':
     'prefix':'ngx.shared.DICT.flush_all'
     'body':'ngx.shared.DICT:flush_all()'
-  'ngx.shared.DICT.flush_expired'
+  'ngx.shared.DICT.flush_expired':
     'prefix':'ngx.shared.DICT.flush_expired'
     'body':'flushed = ngx.shared.DICT:flush_expired(max_count?)'
-  'ngx.shared.DICT.get_keys'
+  'ngx.shared.DICT.get_keys':
     'prefix':'ngx.shared.DICT.get_keys'
     'body':'keys = ngx.shared.DICT:get_keys(max_count?)'
-  'ngx.shared.DICT.capacity'
+  'ngx.shared.DICT.capacity':
     'prefix':'ngx.shared.DICT.capacity'
     'body':'capacity_bytes = ngx.shared.DICT:capacity()'
-  'ngx.shared.DICT.free_space'
+  'ngx.shared.DICT.free_space':
     'prefix':'ngx.shared.DICT.free_space'
     'body':'free_page_bytes = ngx.shared.DICT:free_space()'
-  'ngx.socket.udp'
+  'ngx.socket.udp':
     'prefix':'ngx.socket.udp'
     'body':'udpsock = ngx.socket.udp()'
-  'udpsock:setpeername'
+  'udpsock:setpeername':
     'prefix':'udpsock:setpeername'
     'body':'ok, err = udpsock:setpeername(host, port)'
-  'udpsock:send'
+  'udpsock:send':
     'prefix':'udpsock:send'
     'body':'ok, err = udpsock:send(data)'
-  'udpsock:receive'
+  'udpsock:receive':
     'prefix':'udpsock:receive'
     'body':'data, err = udpsock:receive(size?)'
-  'udpsock:close'
+  'udpsock:close':
     'prefix':'udpsock:close'
     'body':'ok, err = udpsock:close()'
-  'udpsock:settimeout'
+  'udpsock:settimeout':
     'prefix':'udpsock:settimeout'
     'body':'udpsock:settimeout(time)'
-  'ngx.socket.tcp'
+  'ngx.socket.tcp':
     'prefix':'ngx.socket.tcp'
     'body':'tcpsock = ngx.socket.tcp()'
-  'tcpsock:connect'
+  'tcpsock:connect':
     'prefix':'tcpsock:connect'
     'body':'ok, err = tcpsock:connect(host, port, options_table?)'
-  'tcpsock:sslhandshake'
+  'tcpsock:sslhandshake':
     'prefix':'tcpsock:sslhandshake'
     'body':'session, err = tcpsock:sslhandshake(reused_session?, server_name?, ssl_verify?, send_status_req?)'
-  'tcpsock:send'
+  'tcpsock:send':
     'prefix':'tcpsock:send'
     'body':'bytes, err = tcpsock:send(data)'
-  'tcpsock:receive'
+  'tcpsock:receive':
     'prefix':'tcpsock:receive'
     'body':'data, err, partial = tcpsock:receive(size)'
-  'tcpsock:receiveuntil'
+  'tcpsock:receiveuntil':
     'prefix':'tcpsock:receiveuntil'
     'body':'iterator = tcpsock:receiveuntil(pattern, options?)'
-  'tcpsock:close'
+  'tcpsock:close':
     'prefix':'tcpsock:close'
     'body':'ok, err = tcpsock:close()'
-  'tcpsock:settimeout'
+  'tcpsock:settimeout':
     'prefix':'tcpsock:settimeout'
     'body':'tcpsock:settimeout(time)'
-  'tcpsock:settimeouts'
+  'tcpsock:settimeouts':
     'prefix':'tcpsock:settimeouts'
     'body':'tcpsock:settimeouts(connect_timeout, send_timeout, read_timeout)'
-  'tcpsock:setoption'
+  'tcpsock:setoption':
     'prefix':'tcpsock:setoption'
     'body':'tcpsock:setoption(option, value?)'
-  'tcpsock:setkeepalive'
+  'tcpsock:setkeepalive':
     'prefix':'tcpsock:setkeepalive'
     'body':'ok, err = tcpsock:setkeepalive(timeout?, size?)'
-  'tcpsock:getreusedtimes'
+  'tcpsock:getreusedtimes':
     'prefix':'tcpsock:getreusedtimes'
     'body':'count, err = tcpsock:getreusedtimes()'
-  'ngx.socket.connect'
+  'ngx.socket.connect':
     'prefix':'ngx.socket.connect'
     'body':'tcpsock, err = ngx.socket.connect(host, port)'
-  'ngx.get_phase'
+  'ngx.get_phase':
     'prefix':'ngx.get_phase'
     'body':'str = ngx.get_phase()'
-  'ngx.thread.spawn'
+  'ngx.thread.spawn':
     'prefix':'ngx.thread.spawn'
     'body':'co = ngx.thread.spawn(func, arg1, arg2, ...)'
-  'ngx.thread.wait'
+  'ngx.thread.wait':
     'prefix':'ngx.thread.wait'
     'body':'ok, res1, res2, ... = ngx.thread.wait(thread1, thread2, ...)'
-  'ngx.thread.kill'
+  'ngx.thread.kill':
     'prefix':'ngx.thread.kill'
     'body':'ok, err = ngx.thread.kill(thread)'
-  'ngx.on_abort'
+  'ngx.on_abort':
     'prefix':'ngx.on_abort'
     'body':'ok, err = ngx.on_abort(callback)'
-  'ngx.timer.at'
+  'ngx.timer.at':
     'prefix':'ngx.timer.at'
     'body':'hdl, err = ngx.timer.at(delay, callback, user_arg1, user_arg2, ...)'
-  'ngx.timer.every'
+  'ngx.timer.every':
     'prefix':'ngx.timer.every'
     'body':'hdl, err = ngx.timer.every(delay, callback, user_arg1, user_arg2, ...)'
-  'ngx.timer.running_count'
+  'ngx.timer.running_count':
     'prefix':'ngx.timer.running_count'
     'body':'count = ngx.timer.running_count()'
-  'ngx.timer.pending_count'
+  'ngx.timer.pending_count':
     'prefix':'ngx.timer.pending_count'
     'body':'count = ngx.timer.pending_count()'
-  'ngx.config.subsystem'
+  'ngx.config.subsystem':
     'prefix':'ngx.config.subsystem'
     'body':'subsystem = ngx.config.subsystem'
-  'ngx.config.debug'
+  'ngx.config.debug':
     'prefix':'ngx.config.debug'
     'body':'debug = ngx.config.debug'
-  'ngx.config.prefix'
+  'ngx.config.prefix':
     'prefix':'ngx.config.prefix'
     'body':'prefix = ngx.config.prefix()'
-  'ngx.config.nginx_version'
+  'ngx.config.nginx_version':
     'prefix':'ngx.config.nginx_version'
     'body':'ver = ngx.config.nginx_version'
-  'ngx.config.nginx_configure'
+  'ngx.config.nginx_configure':
     'prefix':'ngx.config.nginx_configure'
     'body':'str = ngx.config.nginx_configure()'
-  'ngx.config.ngx_lua_version'
+  'ngx.config.ngx_lua_version':
     'prefix':'ngx.config.ngx_lua_version'
     'body':'ver = ngx.config.ngx_lua_version'
-  'ngx.worker.exiting'
+  'ngx.worker.exiting':
     'prefix':'ngx.worker.exiting'
     'body':'exiting = ngx.worker.exiting()'
-  'ngx.worker.pid'
+  'ngx.worker.pid':
     'prefix':'ngx.worker.pid'
     'body':'pid = ngx.worker.pid()'
-  'ngx.worker.count'
+  'ngx.worker.count':
     'prefix':'ngx.worker.count'
     'body':'count = ngx.worker.count()'
-  'ngx.worker.id'
+  'ngx.worker.id':
     'prefix':'ngx.worker.id'
     'body':'count = ngx.worker.id()'
-  'ngx.semaphore'
+  'ngx.semaphore':
     'prefix':'ngx.semaphore'
     'body':'local semaphore = require "ngx.semaphore"'
-  'ngx.balancer'
+  'ngx.balancer':
     'prefix':'ngx.balancer'
     'body':'local balancer = require "ngx.balancer"'
-  'ngx.ssl'
+  'ngx.ssl':
     'prefix':'ngx.ssl'
     'body':'local ssl = require "ngx.ssl"'
-  'ngx.ocsp'
+  'ngx.ocsp':
     'prefix':'ngx.ocsp'
     'body':'local ocsp = require "ngx.ocsp"'
-  'ndk.set_var.DIRECTIVE'
+  'ndk.set_var.DIRECTIVE':
     'prefix':'ndk.set_var.DIRECTIVE'
     'body':'res = ndk.set_var.DIRECTIVE_NAME'
-  'coroutine.create'
+  'coroutine.create':
     'prefix':'coroutine.create'
     'body':'co = coroutine.create(f)'
-  'coroutine.resume'
+  'coroutine.resume':
     'prefix':'coroutine.resume'
     'body':'ok, ... = coroutine.resume(co, ...)'
-  'coroutine.yield'
+  'coroutine.yield':
     'prefix':'coroutine.yield'
     'body':'... = coroutine.yield(...)'
-  'coroutine.wrap'
+  'coroutine.wrap':
     'prefix':'coroutine.wrap'
     'body':'co = coroutine.wrap(f)'
-  'coroutine.running'
+  'coroutine.running':
     'prefix':'coroutine.running'
     'body':'co = coroutine.running()'
-  'coroutine.status'
+  'coroutine.status':
     'prefix':'coroutine.status'
     'body':'status = coroutine.status(co)'

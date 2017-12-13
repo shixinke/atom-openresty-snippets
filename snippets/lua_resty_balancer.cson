@@ -1,25 +1,25 @@
 'source.lua':
-  'new'
+  'new':
     'prefix':'new'
     'body':'obj, err = class.new(nodes)'
-  'reinit'
+  'reinit':
     'prefix':'reinit'
     'body':'obj:reinit(nodes)'
-  'set'
+  'set':
     'prefix':'set'
     'body':'obj:set(id, weight)'
-  'delete'
+  'delete':
     'prefix':'delete'
     'body':'obj:delete(id)'
-  'incr'
+  'incr':
     'prefix':'incr'
     'body':'obj:incr(id, weight?)'
-  'decr'
+  'decr':
     'prefix':'decr'
     'body':'obj:decr(id, weight?)'
-  'find'
+  'find':
     'prefix':'find'
     'body':'id, index = obj:find(key)'
-  'next'
+  'next':
     'prefix':'next'
     'body':'id, new_index = obj:next(old_index)'

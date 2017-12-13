@@ -1,19 +1,19 @@
 'source.lua':
-  'get_upstreams'
+  'get_upstreams':
     'prefix':'get_upstreams'
     'body':'get_upstreams'
-  'get_servers'
+  'get_servers':
     'prefix':'get_servers'
     'body':'get_servers'
-  'get_primary_peers'
+  'get_primary_peers':
     'prefix':'get_primary_peers'
     'body':'get_primary_peers'
-  'get_backup_peers'
+  'get_backup_peers':
     'prefix':'get_backup_peers'
     'body':'get_backup_peers'
-  'set_peer_down'
+  'set_peer_down':
     'prefix':'set_peer_down'
     'body':'set_peer_down'
-  'current_upstream_name'
+  'current_upstream_name':
     'prefix':'current_upstream_name'
     'body':'current_upstream_name'

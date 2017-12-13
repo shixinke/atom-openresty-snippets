@@ -1,25 +1,25 @@
 'source.lua':
-  'new'
+  'new':
     'prefix':'new'
     'body':'obj, err = class.new(shdict_name, conn, burst, default_conn_delay)'
-  'incoming'
+  'incoming':
     'prefix':'incoming'
     'body':'delay, err = obj:incoming(key, commit)'
-  'is_committed'
+  'is_committed':
     'prefix':'is_committed'
     'body':'bool = obj:is_committed()'
-  'leaving'
+  'leaving':
     'prefix':'leaving'
     'body':'conn = obj:leaving(key, req_latency?)'
-  'set_conn'
+  'set_conn':
     'prefix':'set_conn'
     'body':'obj:set_conn(conn)'
-  'set_burst'
+  'set_burst':
     'prefix':'set_burst'
     'body':'obj:set_burst(burst)'
-  'uncommit'
+  'uncommit':
     'prefix':'uncommit'
     'body':'ok, err = obj:uncommit(key)'
-  'Out-of-Sync Counter Prevention'
+  'Out-of-Sync Counter Prevention':
     'prefix':'Out-of-Sync Counter Prevention'
     'body':'ngx_limit_conn'
