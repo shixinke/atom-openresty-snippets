@@ -1,6 +1,6 @@
 {
   "name": "atom-openresty-stack-snippets",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "openresty autocomplete plugin for atom",
   "main": "index.js",
   "scripts": {
