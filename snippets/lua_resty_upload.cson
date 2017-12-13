@@ -1,0 +1,4 @@
+'source.lua':
+  'require resty.upload':
+    'prefix':'require resty.upload'
+    'body':'local upload = require "resty.upload"'

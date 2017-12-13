@@ -1,7 +1,10 @@
 'source.lua':
+  'require resty.upstream.healthcheck':
+    'prefix':'require resty.upstream.healthcheck'
+    'body':'local healthcheck = require "resty.upstream.healthcheck"'
   'spawn_checker':
     'prefix':'spawn_checker'
-    'body':'ok, err = healthcheck.spawn_checker(options)'
+    'body':'spawn_checker'
   'status_page':
     'prefix':'status_page'
-    'body':'str, err = healthcheck.status_page()'
+    'body':'status_page'

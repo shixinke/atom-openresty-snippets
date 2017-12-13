@@ -1,70 +1,73 @@
 'source.lua':
-  'new':
-    'prefix':'new'
-    'body':'new'
-  'connect':
-    'prefix':'connect'
-    'body':'connect'
-  'set':
-    'prefix':'set'
-    'body':'set'
-  'set_timeout':
-    'prefix':'set_timeout'
-    'body':'set_timeout'
-  'set_keepalive':
-    'prefix':'set_keepalive'
-    'body':'set_keepalive'
-  'get_reused_times':
-    'prefix':'get_reused_times'
-    'body':'get_reused_times'
-  'close':
-    'prefix':'close'
-    'body':'close'
-  'add':
-    'prefix':'add'
-    'body':'add'
-  'replace':
-    'prefix':'replace'
-    'body':'replace'
-  'append':
-    'prefix':'append'
-    'body':'append'
-  'prepend':
-    'prefix':'prepend'
-    'body':'prepend'
-  'get':
-    'prefix':'get'
-    'body':'get'
-  'gets':
-    'prefix':'gets'
-    'body':'gets'
-  'cas':
-    'prefix':'cas'
-    'body':'cas'
-  'touch':
-    'prefix':'touch'
-    'body':'touch'
-  'flush_all':
-    'prefix':'flush_all'
-    'body':'flush_all'
-  'delete':
-    'prefix':'delete'
-    'body':'delete'
-  'incr':
-    'prefix':'incr'
-    'body':'incr'
-  'decr':
-    'prefix':'decr'
-    'body':'decr'
-  'stats':
-    'prefix':'stats'
-    'body':'stats'
-  'version':
-    'prefix':'version'
-    'body':'version'
-  'quit':
-    'prefix':'quit'
-    'body':'quit'
-  'verbosity':
-    'prefix':'verbosity'
-    'body':'verbosity'
+  'require resty.memcached':
+    'prefix':'require resty.memcached'
+    'body':'local memcached = require "resty.memcached"'
+  'memcached:new':
+    'prefix':'memcached:new'
+    'body':': memc, err = memcached:new(opts?)'
+  'memc:connect':
+    'prefix':'memc:connect'
+    'body':': ok, err = memc:connect(host, port)'
+  'memc:set':
+    'prefix':'memc:set'
+    'body':': ok, err = memc:set(key, value, exptime, flags)'
+  'memc:set_timeout':
+    'prefix':'memc:set_timeout'
+    'body':': ok, err = memc:set_timeout(time)'
+  'memc:set_keepalive':
+    'prefix':'memc:set_keepalive'
+    'body':': ok, err = memc:set_keepalive(max_idle_timeout, pool_size)'
+  'memc:get_reused_times':
+    'prefix':'memc:get_reused_times'
+    'body':': times, err = memc:get_reused_times()'
+  'memc:close':
+    'prefix':'memc:close'
+    'body':': ok, err = memc:close()'
+  'memc:add':
+    'prefix':'memc:add'
+    'body':': ok, err = memc:add(key, value, exptime, flags)'
+  'memc:replace':
+    'prefix':'memc:replace'
+    'body':': ok, err = memc:replace(key, value, exptime, flags)'
+  'memc:append':
+    'prefix':'memc:append'
+    'body':': ok, err = memc:append(key, value, exptime, flags)'
+  'memc:prepend':
+    'prefix':'memc:prepend'
+    'body':': ok, err = memc:prepend(key, value, exptime, flags)'
+  'memc:get':
+    'prefix':'memc:get'
+    'body':': value, flags, err = memc:get(key)syntax: results, err = memc:get(keys)'
+  'memc:gets':
+    'prefix':'memc:gets'
+    'body':': value, flags, cas_unique, err = memc:gets(key)'
+  'memc:cas':
+    'prefix':'memc:cas'
+    'body':': ok, err = memc:cas(key, value, cas_unique, exptime?, flags?)'
+  'memc:touch':
+    'prefix':'memc:touch'
+    'body':': ok, err = memc:touch(key, exptime)'
+  'memc:flush_all':
+    'prefix':'memc:flush_all'
+    'body':': ok, err = memc:flush_all(time?)'
+  'memc:delete':
+    'prefix':'memc:delete'
+    'body':': ok, err = memc:delete(key)'
+  'memc:incr':
+    'prefix':'memc:incr'
+    'body':': new_value, err = memc:incr(key, delta)'
+  'memc:decr':
+    'prefix':'memc:decr'
+    'body':': new_value, err = memc:decr(key, value)'
+  'memc:stats':
+    'prefix':'memc:stats'
+    'body':': lines, err = memc:stats(args?)'
+  'memc:version':
+    'prefix':'memc:version'
+    'body':': version, err = memc:version(args?)'
+  'memc:quit':
+    'prefix':'memc:quit'
+    'body':': ok, err = memc:quit()'
+  'memc:verbosity':
+    'prefix':'memc:verbosity'
+    'body':': ok, err = memc:verbosity(level)'

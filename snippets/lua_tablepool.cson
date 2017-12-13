@@ -1,7 +1,10 @@
 'source.lua':
-  'fetch':
-    'prefix':'fetch'
-    'body':'fetch'
-  'release':
-    'prefix':'release'
-    'body':'release'
+  'require tablepool':
+    'prefix':'require tablepool'
+    'body':'local tablepool = require "tablepool"'
+  'tablepool.fetch':
+    'prefix':'tablepool.fetch'
+    'body':': tb = tablepool.fetch(pool_name, narr, nrec)'
+  'tablepool.release':
+    'prefix':'tablepool.release'
+    'body':': cache, err = tablepool.release(pool_name, tb, [no_clear])'

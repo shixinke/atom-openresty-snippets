@@ -1,0 +1,4 @@
+'source.lua':
+  'require resty.websocket':
+    'prefix':'require resty.websocket'
+    'body':'local websocket = require "resty.websocket"'

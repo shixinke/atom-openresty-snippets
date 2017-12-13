@@ -1,13 +1,16 @@
 'source.lua':
-  'new':
-    'prefix':'new'
-    'body':'new'
-  'lock':
-    'prefix':'lock'
-    'body':'lock'
-  'unlock':
-    'prefix':'unlock'
-    'body':'unlock'
-  'expire':
-    'prefix':'expire'
-    'body':'expire'
+  'require resty.lock':
+    'prefix':'require resty.lock'
+    'body':'local lock = require "resty.lock"'
+  'lock:new':
+    'prefix':'lock:new'
+    'body':': obj, err = lock:new(dict_name)'
+  'obj:lock':
+    'prefix':'obj:lock'
+    'body':': elapsed, err = obj:lock(key)'
+  'obj:unlock':
+    'prefix':'obj:unlock'
+    'body':': ok, err = obj:unlock()'
+  'obj:expire':
+    'prefix':'obj:expire'
+    'body':': ok, err = obj:expire(timeout)'

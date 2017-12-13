@@ -1,19 +1,22 @@
 'source.lua':
-  'get_upstreams':
-    'prefix':'get_upstreams'
-    'body':'get_upstreams'
-  'get_servers':
-    'prefix':'get_servers'
-    'body':'get_servers'
-  'get_primary_peers':
-    'prefix':'get_primary_peers'
-    'body':'get_primary_peers'
-  'get_backup_peers':
-    'prefix':'get_backup_peers'
-    'body':'get_backup_peers'
-  'set_peer_down':
-    'prefix':'set_peer_down'
-    'body':'set_peer_down'
-  'current_upstream_name':
-    'prefix':'current_upstream_name'
-    'body':'current_upstream_name'
+  'require upstream.nginx.module':
+    'prefix':'require upstream.nginx.module'
+    'body':'local module = require "upstream.nginx.module"'
+  'upstream.get_upstreams':
+    'prefix':'upstream.get_upstreams'
+    'body':': names = upstream.get_upstreams()'
+  'upstream.get_servers':
+    'prefix':'upstream.get_servers'
+    'body':': servers = upstream.get_servers(upstream_name)'
+  'upstream.get_primary_peers':
+    'prefix':'upstream.get_primary_peers'
+    'body':': peers = upstream.get_primary_peers(upstream_name)'
+  'upstream.get_backup_peers':
+    'prefix':'upstream.get_backup_peers'
+    'body':': peers = upstream.get_backup_peers(upstream_name)'
+  'upstream.set_peer_down':
+    'prefix':'upstream.set_peer_down'
+    'body':': ok, err = upstream.set_peer_down(upstream_name, is_backup, peer_id, down_value)'
+  'upstream.current_upstream_name':
+    'prefix':'upstream.current_upstream_name'
+    'body':': name = upstream.current_upstream_name()'

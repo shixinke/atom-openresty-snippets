@@ -1,40 +1,43 @@
 'source.lua':
-  'new':
-    'prefix':'new'
-    'body':'new'
-  'connect':
-    'prefix':'connect'
-    'body':'connect'
+  'require resty.redis':
+    'prefix':'require resty.redis'
+    'body':'local redis = require "resty.redis"'
+  'redis:new':
+    'prefix':'redis:new'
+    'body':': red, err = redis:new()'
+  'red:connect':
+    'prefix':'red:connect'
+    'body':': ok, err = red:connect(host, port, options_table?)'
   'set_timeout':
     'prefix':'set_timeout'
-    'body':'set_timeout'
-  'set_keepalive':
-    'prefix':'set_keepalive'
-    'body':'set_keepalive'
-  'get_reused_times':
-    'prefix':'get_reused_times'
-    'body':'get_reused_times'
-  'close':
-    'prefix':'close'
-    'body':'close'
+    'body':': red:set_timeout(time)'
+  'red:set_keepalive':
+    'prefix':'red:set_keepalive'
+    'body':': ok, err = red:set_keepalive(max_idle_timeout, pool_size)'
+  'red:get_reused_times':
+    'prefix':'red:get_reused_times'
+    'body':': times, err = red:get_reused_times()'
+  'red:close':
+    'prefix':'red:close'
+    'body':': ok, err = red:close()'
   'init_pipeline':
     'prefix':'init_pipeline'
-    'body':'init_pipeline'
-  'commit_pipeline':
-    'prefix':'commit_pipeline'
-    'body':'commit_pipeline'
+    'body':': red:init_pipeline()'
+  'red:commit_pipeline':
+    'prefix':'red:commit_pipeline'
+    'body':': results, err = red:commit_pipeline()'
   'cancel_pipeline':
     'prefix':'cancel_pipeline'
-    'body':'cancel_pipeline'
+    'body':': red:cancel_pipeline()'
   'hmset':
     'prefix':'hmset'
-    'body':'hmset'
-  'array_to_hash':
-    'prefix':'array_to_hash'
-    'body':'array_to_hash'
-  'read_reply':
-    'prefix':'read_reply'
-    'body':'read_reply'
-  'add_commands':
-    'prefix':'add_commands'
-    'body':'add_commands'
+    'body':': red:hmset(myhash, field1, value1, field2, value2, ...)'
+  'red:array_to_hash':
+    'prefix':'red:array_to_hash'
+    'body':': hash = red:array_to_hash(array)'
+  'red:read_reply':
+    'prefix':'red:read_reply'
+    'body':': res, err = red:read_reply()'
+  'redis.add_commands':
+    'prefix':'redis.add_commands'
+    'body':': hash = redis.add_commands(cmd_name1, cmd_name2, ...)'

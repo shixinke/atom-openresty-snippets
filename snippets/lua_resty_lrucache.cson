@@ -1,13 +1,16 @@
 'source.lua':
-  'new':
-    'prefix':'new'
-    'body':'new'
+  'require resty.lrucache':
+    'prefix':'require resty.lrucache'
+    'body':'local lrucache = require "resty.lrucache"'
+  'lrucache.new':
+    'prefix':'lrucache.new'
+    'body':': cache, err = lrucache.new(max_items [, load_factor])'
   'set':
     'prefix':'set'
-    'body':'set'
-  'get':
-    'prefix':'get'
-    'body':'get'
+    'body':': cache:set(key, value, ttl)'
+  'cache:get':
+    'prefix':'cache:get'
+    'body':': data, stale_data = cache:get(key)'
   'delete':
     'prefix':'delete'
-    'body':'delete'
+    'body':': cache:delete(key)'

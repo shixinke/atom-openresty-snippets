@@ -1,16 +1,19 @@
 'source.lua':
+  'require resty.limit.req':
+    'prefix':'require resty.limit.req'
+    'body':'local req = require "resty.limit.req"'
   'new':
     'prefix':'new'
-    'body':'obj, err = class.new(shdict_name, rate, burst)'
+    'body':'new'
   'incoming':
     'prefix':'incoming'
-    'body':'delay, err = obj:incoming(key, commit)'
+    'body':'incoming'
   'set_rate':
     'prefix':'set_rate'
-    'body':'obj:set_rate(rate)'
+    'body':'set_rate'
   'set_burst':
     'prefix':'set_burst'
-    'body':'obj:set_burst(burst)'
+    'body':'set_burst'
   'uncommit':
     'prefix':'uncommit'
-    'body':'ok, err = obj:uncommit(key)'
+    'body':'uncommit'

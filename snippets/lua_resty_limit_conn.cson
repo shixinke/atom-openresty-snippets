@@ -1,25 +1,28 @@
 'source.lua':
+  'require resty.limit.conn':
+    'prefix':'require resty.limit.conn'
+    'body':'local conn = require "resty.limit.conn"'
   'new':
     'prefix':'new'
-    'body':'obj, err = class.new(shdict_name, conn, burst, default_conn_delay)'
+    'body':'new'
   'incoming':
     'prefix':'incoming'
-    'body':'delay, err = obj:incoming(key, commit)'
+    'body':'incoming'
   'is_committed':
     'prefix':'is_committed'
-    'body':'bool = obj:is_committed()'
+    'body':'is_committed'
   'leaving':
     'prefix':'leaving'
-    'body':'conn = obj:leaving(key, req_latency?)'
+    'body':'leaving'
   'set_conn':
     'prefix':'set_conn'
-    'body':'obj:set_conn(conn)'
+    'body':'set_conn'
   'set_burst':
     'prefix':'set_burst'
-    'body':'obj:set_burst(burst)'
+    'body':'set_burst'
   'uncommit':
     'prefix':'uncommit'
-    'body':'ok, err = obj:uncommit(key)'
+    'body':'uncommit'
   'Out-of-Sync Counter Prevention':
     'prefix':'Out-of-Sync Counter Prevention'
-    'body':'ngx_limit_conn'
+    'body':'Out-of-Sync Counter Prevention'

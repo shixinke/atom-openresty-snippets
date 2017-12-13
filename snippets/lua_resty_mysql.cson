@@ -1,34 +1,37 @@
 'source.lua':
-  'new':
-    'prefix':'new'
-    'body':'new'
-  'connect':
-    'prefix':'connect'
-    'body':'connect'
+  'require resty.mysql':
+    'prefix':'require resty.mysql'
+    'body':'local mysql = require "resty.mysql"'
+  'mysql:new':
+    'prefix':'mysql:new'
+    'body':': db, err = mysql:new()'
+  'db:connect':
+    'prefix':'db:connect'
+    'body':': ok, err = db:connect(options)'
   'set_timeout':
     'prefix':'set_timeout'
-    'body':'set_timeout'
-  'set_keepalive':
-    'prefix':'set_keepalive'
-    'body':'set_keepalive'
-  'get_reused_times':
-    'prefix':'get_reused_times'
-    'body':'get_reused_times'
-  'close':
-    'prefix':'close'
-    'body':'close'
-  'send_query':
-    'prefix':'send_query'
-    'body':'send_query'
-  'read_result':
-    'prefix':'read_result'
-    'body':'read_result'
-  'query':
-    'prefix':'query'
-    'body':'query'
-  'server_ver':
-    'prefix':'server_ver'
-    'body':'server_ver'
+    'body':': db:set_timeout(time)'
+  'db:set_keepalive':
+    'prefix':'db:set_keepalive'
+    'body':': ok, err = db:set_keepalive(max_idle_timeout, pool_size)'
+  'db:get_reused_times':
+    'prefix':'db:get_reused_times'
+    'body':': times, err = db:get_reused_times()'
+  'db:close':
+    'prefix':'db:close'
+    'body':': ok, err = db:close()'
+  'db:send_query':
+    'prefix':'db:send_query'
+    'body':': bytes, err = db:send_query(query)'
+  'db:read_result':
+    'prefix':'db:read_result'
+    'body':': res, err, errcode, sqlstate = db:read_result()'
+  'db:query':
+    'prefix':'db:query'
+    'body':': res, err, errcode, sqlstate = db:query(query)'
+  'db:server_ver':
+    'prefix':'db:server_ver'
+    'body':': str = db:server_ver()'
   'set_compact_arrays':
     'prefix':'set_compact_arrays'
-    'body':'set_compact_arrays'
+    'body':': db:set_compact_arrays(boolean)'

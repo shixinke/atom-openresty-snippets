@@ -1,4 +1,7 @@
 'source.lua':
+  'require resty.limit.traffic':
+    'prefix':'require resty.limit.traffic'
+    'body':'local traffic = require "resty.limit.traffic"'
   'combine':
     'prefix':'combine'
-    'body':'delay, err = class.combine(limiters, keys)'
+    'body':'combine'

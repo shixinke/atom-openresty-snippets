@@ -1,67 +1,70 @@
 'source.lua':
-  'new':
-    'prefix':'new'
-    'body':'new'
-  'query':
-    'prefix':'query'
-    'body':'query'
-  'tcp_query':
-    'prefix':'tcp_query'
-    'body':'tcp_query'
+  'require resty.dns':
+    'prefix':'require resty.dns'
+    'body':'local dns = require "resty.dns"'
+  'class:new':
+    'prefix':'class:new'
+    'body':': r, err = class:new(opts)'
+  'r:query':
+    'prefix':'r:query'
+    'body':': answers, err, tries? = r:query(name, options?, tries?)'
+  'r:tcp_query':
+    'prefix':'r:tcp_query'
+    'body':': answers, err = r:tcp_query(name, options?)'
   'set_timeout':
     'prefix':'set_timeout'
-    'body':'set_timeout'
-  'compress_ipv6_addr':
-    'prefix':'compress_ipv6_addr'
-    'body':'compress_ipv6_addr'
-  'expand_ipv6_addr':
-    'prefix':'expand_ipv6_addr'
-    'body':'expand_ipv6_addr'
-  'arpa_str':
-    'prefix':'arpa_str'
-    'body':'arpa_str'
-  'reverse_query':
-    'prefix':'reverse_query'
-    'body':'reverse_query'
+    'body':': r:set_timeout(time)'
+  'resty.dns.resolver.compress_ipv6_addr':
+    'prefix':'resty.dns.resolver.compress_ipv6_addr'
+    'body':': compressed = resty.dns.resolver.compress_ipv6_addr(address)'
+  'resty.dns.resolver.expand_ipv6_addr':
+    'prefix':'resty.dns.resolver.expand_ipv6_addr'
+    'body':': expanded = resty.dns.resolver.expand_ipv6_addr(address)'
+  'resty.dns.resolver.arpa_str':
+    'prefix':'resty.dns.resolver.arpa_str'
+    'body':': arpa_record = resty.dns.resolver.arpa_str(address)'
+  'r:reverse_query':
+    'prefix':'r:reverse_query'
+    'body':': answers, err = r:reverse_query(address)'
   'TYPE_A':
     'prefix':'TYPE_A'
-    'body':'A1'
+    'body':'TYPE_A'
   'TYPE_NS':
     'prefix':'TYPE_NS'
-    'body':'NS2'
+    'body':'TYPE_NS'
   'TYPE_CNAME':
     'prefix':'TYPE_CNAME'
-    'body':'CNAME5'
+    'body':'TYPE_CNAME'
   'TYPE_SOA':
     'prefix':'TYPE_SOA'
-    'body':'SOA6'
+    'body':'TYPE_SOA'
   'TYPE_PTR':
     'prefix':'TYPE_PTR'
-    'body':'PTR12'
+    'body':'TYPE_PTR'
   'TYPE_MX':
     'prefix':'TYPE_MX'
-    'body':'MX15'
+    'body':'TYPE_MX'
   'TYPE_TXT':
     'prefix':'TYPE_TXT'
-    'body':'TXT16'
-  'TYPE_AAAA':
-    'prefix':'TYPE_AAAA'
-    'body':'TYPE_AAAA'
-  'TYPE_SRV':
-    'prefix':'TYPE_SRV'
-    'body':'TYPE_SRV'
-  'TYPE_SPF':
-    'prefix':'TYPE_SPF'
-    'body':'TYPE_SPF'
-  'CLASS_IN':
-    'prefix':'CLASS_IN'
-    'body':'CLASS_IN'
-  'SECTION_AN':
-    'prefix':'SECTION_AN'
-    'body':'SECTION_AN'
-  'SECTION_NS':
-    'prefix':'SECTION_NS'
-    'body':'SECTION_NS'
-  'SECTION_AR':
-    'prefix':'SECTION_AR'
-    'body':'SECTION_AR'
+    'body':'TYPE_TXT'
+  'r.TYPE_AAAA':
+    'prefix':'r.TYPE_AAAA'
+    'body':': typ = r.TYPE_AAAA'
+  'r.TYPE_SRV':
+    'prefix':'r.TYPE_SRV'
+    'body':': typ = r.TYPE_SRV'
+  'r.TYPE_SPF':
+    'prefix':'r.TYPE_SPF'
+    'body':': typ = r.TYPE_SPF'
+  'r.CLASS_IN':
+    'prefix':'r.CLASS_IN'
+    'body':': class = r.CLASS_IN'
+  'r.SECTION_AN':
+    'prefix':'r.SECTION_AN'
+    'body':': stype = r.SECTION_AN'
+  'r.SECTION_NS':
+    'prefix':'r.SECTION_NS'
+    'body':': stype = r.SECTION_NS'
+  'r.SECTION_AR':
+    'prefix':'r.SECTION_AR'
+    'body':': stype = r.SECTION_AR'

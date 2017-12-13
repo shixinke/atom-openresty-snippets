@@ -1,25 +1,28 @@
 'source.lua':
+  'require resty.balancer':
+    'prefix':'require resty.balancer'
+    'body':'local balancer = require "resty.balancer"'
   'new':
     'prefix':'new'
-    'body':'obj, err = class.new(nodes)'
+    'body':'new'
   'reinit':
     'prefix':'reinit'
-    'body':'obj:reinit(nodes)'
+    'body':'reinit'
   'set':
     'prefix':'set'
-    'body':'obj:set(id, weight)'
+    'body':'set'
   'delete':
     'prefix':'delete'
-    'body':'obj:delete(id)'
+    'body':'delete'
   'incr':
     'prefix':'incr'
-    'body':'obj:incr(id, weight?)'
+    'body':'incr'
   'decr':
     'prefix':'decr'
-    'body':'obj:decr(id, weight?)'
+    'body':'decr'
   'find':
     'prefix':'find'
-    'body':'id, index = obj:find(key)'
+    'body':'find'
   'next':
     'prefix':'next'
-    'body':'id, new_index = obj:next(old_index)'
+    'body':'next'

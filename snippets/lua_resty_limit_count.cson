@@ -1,10 +1,13 @@
 'source.lua':
+  'require resty.limit.count':
+    'prefix':'require resty.limit.count'
+    'body':'local count = require "resty.limit.count"'
   'new':
     'prefix':'new'
-    'body':'obj, err = class.new(shdict_name, count, time_window)'
+    'body':'new'
   'incoming':
     'prefix':'incoming'
-    'body':'delay, err = obj:incoming(key, commit)'
+    'body':'incoming'
   'uncommit':
     'prefix':'uncommit'
-    'body':'remaining, err = obj:uncommit(key)'
+    'body':'uncommit'

@@ -1,13 +1,16 @@
 'source.lua':
-  'init':
-    'prefix':'init'
-    'body':'init'
-  'initted':
-    'prefix':'initted'
-    'body':'initted'
-  'log':
-    'prefix':'log'
-    'body':'log'
-  'flush':
-    'prefix':'flush'
-    'body':'flush'
+  'require resty.logger.socket':
+    'prefix':'require resty.logger.socket'
+    'body':'local socket = require "resty.logger.socket"'
+  'logger.init':
+    'prefix':'logger.init'
+    'body':': ok, err = logger.init(user_config)'
+  'logger.initted':
+    'prefix':'logger.initted'
+    'body':': initted = logger.initted()'
+  'logger.log':
+    'prefix':'logger.log'
+    'body':': bytes, err = logger.log(msg)'
+  'logger.flush':
+    'prefix':'logger.flush'
+    'body':': bytes, err = logger.flush()'

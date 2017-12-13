@@ -1,0 +1,4 @@
+'source.lua':
+  'require resty.string':
+    'prefix':'require resty.string'
+    'body':'local string = require "resty.string"'
